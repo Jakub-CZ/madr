@@ -1,0 +1,11 @@
+project:
+  name: Sample ADR project
+  tz: Europe/Prague
+  adrFolder: ./docs/adr
+  packages:
+    - name: java-server
+      path: src/java-server
+      adrFolder: src/java-server/docs/adr
+    - name: mainframe
+      path: src/mainframe
+      adrFolder: src/mainframe/docs/adr
