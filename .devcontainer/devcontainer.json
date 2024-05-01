@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn global add"
+	"postCreateCommand": "yarn global add log4brains"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
