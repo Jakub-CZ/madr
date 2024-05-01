@@ -9,3 +9,6 @@ project:
     - name: mainframe
       path: src/mainframe
       adrFolder: src/mainframe/docs/adr
+
+  repository:
+    viewFileUriPattern: /blob/main/%path

@@ -1,8 +1,10 @@
 # Architecture Decision Records
 
+[![Log4brains ADRs](https://jakub-cz.github.io/madr/badge.svg)](https://jakub-cz.github.io/madr/)
+
 ADRs are automatically published to our Log4brains architecture knowledge base:
 
-🔗 **<http://INSERT-YOUR-LOG4BRAINS-URL>**
+🔗 **<https://jakub-cz.github.io/madr/>**
 
 Please use this link to browse them.
 
