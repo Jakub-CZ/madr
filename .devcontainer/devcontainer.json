@@ -5,6 +5,10 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 
+	"remoteEnv": {
+		"VISUAL": "code"  // allows user to open source files directly from the preview mode
+	},
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
