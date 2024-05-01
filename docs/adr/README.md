@@ -11,7 +11,7 @@ Please use this link to browse them.
 If not already done, install Log4brains:
 
 ```bash
-npm install -g log4brains
+yarn global add log4brains
 ```
 
 To preview the knowledge base locally, run:
