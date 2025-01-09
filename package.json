@@ -1,6 +1,6 @@
 {
   "license": "UNLICENSED",
   "dependencies": {
-    "log4brains": "^1.0.1"
+    "log4brains": "^1.1.0"
   }
 }

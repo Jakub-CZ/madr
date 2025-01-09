@@ -9,9 +9,9 @@ USER node
 RUN --mount=type=cache,target=/home/node/.cache,sharing=locked,uid=1000 \
     yarn global add log4brains
 ENV PATH=/home/node/.yarn/bin:$PATH
-# fix log4brains build using newer node versions
 
-ENV NODE_OPTIONS=--openssl-legacy-provider
+# [for v1.0.1] fix log4brains build using newer node versions:
+#ENV NODE_OPTIONS=--openssl-legacy-provider
 
 WORKDIR /workdir
 ENTRYPOINT [ "tini", "-v", "--", "log4brains" ]
